@@ -1,0 +1,12 @@
+version: '3'
+services: 
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=emanuel-2
+    ports:
+      - '8080:80'
+    # env_file:
+    #   - ./.env.prod

@@ -3,6 +3,6 @@ Dockerfile
 .git
 .gitignore
 .dockerignore
-.env
+*.env*
 build
 README.md
