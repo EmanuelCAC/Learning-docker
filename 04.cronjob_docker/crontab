@@ -1,0 +1,1 @@
+*/3 * * * * echo "Hello world teste" >> /var/log/cron.log 2>&1
